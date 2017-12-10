@@ -1,0 +1,20 @@
+## YAML Template.
+#./src/FraisApiBundle/Resources/config/routing_rest.yml
+typefraisforfait :
+  type: rest
+  resource:     "FraisApiBundle:TypeFraisForfait"
+  name_prefix:  api_typefraisforfait_
+fraisforfait :
+  type: rest
+  resource:     "FraisApiBundle:FraisforfaitRest"
+  name_prefix:  api_fraisforfait_
+fraishorsforfait :
+  type: rest
+  resource:     "FraisApiBundle:FraishorsforfaitRest"
+  name_prefix:  api_fraishorsforfait_
+fichefrais :
+  type: rest
+  resource:     "FraisApiBundle:FichefraisRest"
+  name_prefix:  api_fichefrais_
+
+

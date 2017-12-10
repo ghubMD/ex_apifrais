@@ -1,0 +1,20 @@
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
+
+#app:
+#    resource: "@AppBundle/Controller/"
+#    type:     annotation
+ 
+#la route de la doc générée par nelmio
+NelmioApiDocBundle:
+    resource: "@NelmioApiDocBundle/Resources/config/routing.yml"
+    prefix:   /frais-api/doc
+
+rest: 
+    type: rest 
+    resource: "routing_rest.yml"
+    prefix: /api
+
+#la route de connexion du bundle jwtauthentication de lexik pour obtenir le token
+api_login_check:
+    path: /api/login_check
