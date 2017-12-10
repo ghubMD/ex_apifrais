@@ -22,7 +22,7 @@ class FichefraisRestController extends FOSRestController
      */
     public function getEstpremierfraisMoisAction($idVisiteur, $mois)
     {
-        $nb=15; //essai
+        $nb=18; //essaifff
     }
     
     /**
