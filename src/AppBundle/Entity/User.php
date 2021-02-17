@@ -1,5 +1,5 @@
 <?php
-// src/AppBundle/Entity/User.php et berf une modif
+// src/AppBundle/Entity/User.php et berf une modif,  et deuxiem modif avec edit github
 
 namespace AppBundle\Entity;
 
